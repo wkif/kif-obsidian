@@ -145,6 +145,9 @@ LIMIT 5
 - [[51-Blog-Drafts/README|博客草稿]] - 待发布文章
 - [[52-Tutorials/README|教程指南]] - 教程和文档
 
+### 🎬 娱乐生活
+- [[60-Entertainment/README|影视记录]] - 电影和剧集追踪
+
 ---
 
 ## 🎨 使用技巧

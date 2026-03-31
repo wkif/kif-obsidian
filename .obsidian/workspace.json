@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "41-Concepts/严肃议题的梗化.md",
+                "file": "90-Archive/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "严肃议题的梗化"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "41-Concepts/严肃议题的梗化.md",
+                "file": "90-Archive/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "严肃议题的梗化 的反向链接列表"
+              "title": "README 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "41-Concepts/严肃议题的梗化.md",
+                "file": "90-Archive/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "严肃议题的梗化 的出链列表"
+              "title": "README 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "41-Concepts/严肃议题的梗化.md",
+                "file": "90-Archive/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "严肃议题的梗化 的大纲"
+              "title": "README 的大纲"
             }
           }
         ]
@@ -185,6 +185,21 @@
   },
   "active": "7e72381bca54745d",
   "lastOpenFiles": [
+    "60-Entertainment/TV-Shows/绝命毒师.md",
+    "60-Entertainment/Movies/肖申克的救赎.md",
+    "60-Entertainment/TV-Shows/README.md",
+    "60-Entertainment/Movies/README.md",
+    "60-Entertainment/README.md",
+    "00-Dashboard/README.md",
+    "60-Entertainment/TV-Shows",
+    "60-Entertainment/Movies",
+    "60-Entertainment",
+    "90-Archive/README.md",
+    "52-Tutorials/README.md",
+    "51-Blog-Drafts/README.md",
+    "50-Content/README.md",
+    "42-Patterns/README.md",
+    "41-Concepts/严肃议题的梗化.md",
     "41-Concepts/诉诸众人谬误.md",
     "41-Concepts/身份替代论证.md",
     "41-Concepts/理中客的污名化.md",
@@ -192,34 +207,19 @@
     "11-Frontend/README.md",
     "40-Knowledge/Machiavellianism-in-Workplace.md",
     "10-Tech/README.md",
-    "41-Concepts/严肃议题的梗化.md",
     "12-Backend/README.md",
     "13-AI/README.md",
     "20-Projects/README.md",
     "30-Ideas/README.md",
     "32-Side-Projects/README.md",
     "41-Concepts/Appeal-to-Popularity-Fallacy.md",
-    "00-Dashboard/README.md",
     "01-Daily/README.md",
-    "40-Knowledge/README.md",
-    "31-Product-Ideas/README.md",
-    "41-Concepts/Weaponization-of-Rationality-Label.md",
-    "41-Concepts/Internet-Memeification-of-Serious-Topics.md",
-    "41-Concepts/Identity-as-Argument.md",
-    "41-Concepts/README.md",
-    "51-Blog-Drafts/README.md",
-    "50-Content/README.md",
-    "42-Patterns/README.md",
-    "90-Archive/README.md",
     "90-Archive",
     "52-Tutorials",
     "51-Blog-Drafts",
     "50-Content",
     "42-Patterns",
     "41-Concepts",
-    "40-Knowledge",
-    "32-Side-Projects",
-    "31-Product-Ideas",
-    "30-Ideas"
+    "40-Knowledge"
   ]
 }
