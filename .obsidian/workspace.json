@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90-Archive/README.md",
+                "file": "60-Entertainment/TV-Shows/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "90-Archive/README.md",
+                "file": "60-Entertainment/TV-Shows/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "90-Archive/README.md",
+                "file": "60-Entertainment/TV-Shows/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "90-Archive/README.md",
+                "file": "60-Entertainment/TV-Shows/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,16 +185,22 @@
   },
   "active": "7e72381bca54745d",
   "lastOpenFiles": [
+    "60-Entertainment/Movies/浪客剑心最终章：人诛篇.md",
+    "60-Entertainment/Movies/浪客剑心：传说的完结篇.md",
+    "60-Entertainment/Movies/浪客剑心：京都大火篇.md",
+    "60-Entertainment/Movies/浪客剑心真人版.md",
+    "60-Entertainment/Movies/牧马人.md",
+    "60-Entertainment/TV-Shows/One Day.md",
     "60-Entertainment/TV-Shows/绝命毒师.md",
-    "60-Entertainment/Movies/肖申克的救赎.md",
-    "60-Entertainment/TV-Shows/README.md",
     "60-Entertainment/Movies/README.md",
+    "60-Entertainment/Movies/肖申克的救赎.md",
+    "90-Archive/README.md",
+    "60-Entertainment/TV-Shows/README.md",
     "60-Entertainment/README.md",
     "00-Dashboard/README.md",
     "60-Entertainment/TV-Shows",
     "60-Entertainment/Movies",
     "60-Entertainment",
-    "90-Archive/README.md",
     "52-Tutorials/README.md",
     "51-Blog-Drafts/README.md",
     "50-Content/README.md",
@@ -208,12 +214,6 @@
     "40-Knowledge/Machiavellianism-in-Workplace.md",
     "10-Tech/README.md",
     "12-Backend/README.md",
-    "13-AI/README.md",
-    "20-Projects/README.md",
-    "30-Ideas/README.md",
-    "32-Side-Projects/README.md",
-    "41-Concepts/Appeal-to-Popularity-Fallacy.md",
-    "01-Daily/README.md",
     "90-Archive",
     "52-Tutorials",
     "51-Blog-Drafts",
