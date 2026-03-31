@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "60-Entertainment/TV-Shows/行尸走肉.md",
+                "file": "00-Dashboard/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "行尸走肉"
+              "title": "README"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "60-Entertainment/TV-Shows/行尸走肉.md",
+                "file": "00-Dashboard/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "行尸走肉 的反向链接列表"
+              "title": "README 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "60-Entertainment/TV-Shows/行尸走肉.md",
+                "file": "00-Dashboard/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "行尸走肉 的出链列表"
+              "title": "README 的出链列表"
             }
           },
           {
@@ -156,13 +156,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "60-Entertainment/TV-Shows/行尸走肉.md",
+                "file": "00-Dashboard/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "行尸走肉 的大纲"
+              "title": "README 的大纲"
+            }
+          },
+          {
+            "id": "de7b77dc9049e455",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -180,46 +190,47 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "7e72381bca54745d",
   "lastOpenFiles": [
-    "60-Entertainment/TV-Shows/雍正王朝.md",
-    "60-Entertainment/Movies/One Day.md",
-    "00-Dashboard/README.md",
-    "60-Entertainment/TV-Shows/One Day.md",
-    "60-Entertainment/TV-Shows/无耻之徒.md",
-    "60-Entertainment/TV-Shows/破产姐妹.md",
-    "60-Entertainment/TV-Shows/行尸走肉.md",
-    "60-Entertainment/TV-Shows/平凡的世界.md",
-    "60-Entertainment/TV-Shows/绝命毒师.md",
-    "60-Entertainment/TV-Shows/大秦帝国系列.md",
-    "60-Entertainment/TV-Shows/大明王朝1566.md",
-    "60-Entertainment/TV-Shows/白鹿原.md",
-    "60-Entertainment/Movies/README.md",
-    "60-Entertainment/Movies/肖申克的救赎.md",
-    "60-Entertainment/Movies/我不是药神.md",
-    "60-Entertainment/Movies/牧马人.md",
-    "60-Entertainment/Movies/浪客剑心最终章：追忆篇.md",
-    "60-Entertainment/Movies/浪客剑心最终章：人诛篇.md",
-    "60-Entertainment/Movies/浪客剑心真人版.md",
-    "60-Entertainment/Movies/浪客剑心：京都大火篇.md",
-    "60-Entertainment/Movies/浪客剑心：传说的完结篇.md",
-    "60-Entertainment/Movies/当幸福来敲门.md",
+    "60-Entertainment/娱乐记录总览.md",
+    "60-Entertainment/Movies/花束般的恋爱.md",
+    "60-Entertainment/Movies/罪恶都市.md",
+    "60-Entertainment/Movies/绿皮书.md",
+    "60-Entertainment/Movies/看见恶魔.md",
+    "60-Entertainment/Movies/爱情与灵药.md",
+    "60-Entertainment/Movies/杀人回忆.md",
+    "60-Entertainment/Movies/我家买了动物园.md",
+    "60-Entertainment/Movies/恶人传.md",
+    "60-Entertainment/Movies/大象席地而坐.md",
+    "60-Entertainment/Movies/大佛普拉斯.md",
+    "60-Entertainment/Movies/华尔街之狼.md",
+    "60-Entertainment/Books/百年孤独.md",
+    "60-Entertainment/Books/白鹿原.md",
+    "60-Entertainment/Books/活着.md",
+    "60-Entertainment/Books/正说清朝十二帝.md",
+    "60-Entertainment/Books/平凡的世界.md",
+    "60-Entertainment/Books/README.md",
+    "60-Entertainment/Books",
+    "32-Side-Projects/项目总览.md",
+    "32-Side-Projects/LinkLantern/README.md",
+    "32-Side-Projects/LinkLantern/Problems.md",
+    "32-Side-Projects/LinkLantern/Ideas.md",
+    "32-Side-Projects/LinkLantern/Architecture.md",
+    "32-Side-Projects/LinkLantern",
+    "01-Daily/2026-03-31.md",
+    "01-Daily/README.md",
     "60-Entertainment/README.md",
-    "60-Entertainment/TV-Shows/README.md",
-    "90-Archive/README.md",
-    "60-Entertainment/TV-Shows",
-    "60-Entertainment/Movies",
-    "60-Entertainment",
-    "52-Tutorials/README.md",
-    "90-Archive",
-    "52-Tutorials",
-    "51-Blog-Drafts",
-    "50-Content",
-    "42-Patterns",
-    "41-Concepts",
-    "40-Knowledge"
+    "70-Work/Projects/工作场景Obsidian系统",
+    "70-Work/Tools",
+    "70-Work/Team",
+    "70-Work/OKR",
+    "70-Work/Daily",
+    "70-Work/Knowledge",
+    "70-Work/Meetings",
+    "70-Work/Projects"
   ]
 }
