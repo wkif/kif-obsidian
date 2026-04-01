@@ -26,6 +26,13 @@ GitHub 项目：https://github.com/tangkangyoudao
 
 待补充...
 
+## 服务器配置
+
+- [Server-Config.md](Server-Config.md) - 服务器环境配置详情
+  - ✅ 1panel 安装配置（2026-04-01）
+  - ✅ Jenkins 配置（2026-04-01）
+  - ⏳ 项目部署（计划 2026-04-02）
+
 ## 开发计划
 
 待补充...
@@ -38,3 +45,5 @@ GitHub 项目：https://github.com/tangkangyoudao
 
 ### 2026-04-01
 - 项目创建记录
+- 服务器环境配置完成（1panel + Jenkins）
+- 准备明日项目部署
