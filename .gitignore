@@ -4,3 +4,16 @@ openclaw.json
 memory/*.md
 scripts/
 
+
+# OpenClaw 工作空间完整配置
+.openclaw/
+AGENTS.md
+BOOTSTRAP.md
+HEARTBEAT.md
+IDENTITY.md
+MEMORY.md
+SOUL.md
+TOOLS.md
+USER.md
+日报-*.md
+
