@@ -1,0 +1,6 @@
+
+# OpenClaw 工作空间文件（不应提交到 Obsidian 知识库）
+openclaw.json
+memory/*.md
+scripts/
+
