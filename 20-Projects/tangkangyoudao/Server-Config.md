@@ -56,33 +56,147 @@
 - **配置备份**: (待配置)
 - **恢复测试**: (待配置)
 
-## 明日部署计划
+## 明日部署计划（多仓库协同部署）
 
-### 部署步骤
-1. **代码准备**
-   - 从 GitHub 拉取最新代码
-   - 检查依赖和配置
-   - 运行测试
+### 1. 后端 Django 服务部署
+#### 代码准备
+```bash
+# 克隆后端仓库
+git clone https://github.com/tangkangyoudao/tangkang_backend_django.git
+cd tangkang_backend_django
 
-2. **环境配置**
-   - 配置数据库连接
-   - 配置环境变量
-   - 配置日志路径
+# 检查项目结构
+ls -la
+cat requirements.txt  # 查看 Python 依赖
+cat .env.example      # 查看环境变量配置
+```
 
-3. **构建部署**
-   - 使用 Jenkins 自动化构建
-   - 部署到应用服务器
-   - 启动服务
+#### 环境配置
+- 创建 Python 虚拟环境
+- 安装依赖：`pip install -r requirements.txt`
+- 配置数据库连接（PostgreSQL/MySQL）
+- 配置环境变量（SECRET_KEY, DATABASE_URL, REDIS_URL 等）
+- 运行数据库迁移：`python manage.py migrate`
 
-4. **验证测试**
-   - 功能测试
-   - 性能测试
-   - 安全扫描
+#### 服务启动
+- 使用 Gunicorn/uWSGI 启动 Django 服务
+- 配置 Nginx 反向代理
+- 配置静态文件服务
 
-5. **监控配置**
-   - 配置应用监控
-   - 配置错误告警
-   - 配置性能指标
+### 2. 前端 Vue 应用部署
+#### 代码准备
+```bash
+# 克隆前端仓库
+git clone https://github.com/tangkangyoudao/tangkang_frontend_vue.git
+cd tangkang_frontend_vue
+
+# 检查项目结构
+ls -la
+cat package.json      # 查看 Node.js 依赖和脚本
+cat .env.example      # 查看环境变量配置
+```
+
+#### 构建部署
+- 安装 Node.js 依赖：`npm install` 或 `yarn install`
+- 配置 API 端点（指向后端服务）
+- 构建生产版本：`npm run build` 或 `yarn build`
+- 部署构建产物到 Nginx 静态目录
+
+### 3. 小程序部署准备
+#### 代码准备
+```bash
+# 克隆小程序仓库
+git clone https://github.com/tangkangyoudao/tangkang_frontend_miniapp.git
+cd tangkang_frontend_miniapp
+
+# 检查项目结构
+ls -la
+cat project.config.json  # 查看小程序配置
+```
+
+#### 配置要点
+- 配置小程序后台域名（需在微信公众平台配置）
+- 配置 API 端点（指向后端服务）
+- 准备小程序发布流程
+
+### 4. Jenkins 自动化配置
+#### 创建构建任务
+1. **后端构建任务**
+   - 触发条件：Git push 到 main 分支
+   - 构建步骤：安装依赖 → 运行测试 → 部署服务
+
+2. **前端构建任务**
+   - 触发条件：Git push 到 main 分支
+   - 构建步骤：安装依赖 → 构建项目 → 部署静态文件
+
+#### 部署流水线
+```
+Git Push → Jenkins 触发 → 代码拉取 → 依赖安装 → 
+测试运行 → 构建打包 → 部署到服务器 → 服务重启 → 
+健康检查 → 通知结果
+```
+
+### 5. Nginx 配置
+```nginx
+# 后端 API 服务
+server {
+    listen 80;
+    server_name api.tangkang.example.com;
+    
+    location / {
+        proxy_pass http://localhost:8000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+    
+    location /static/ {
+        alias /path/to/django/static/;
+    }
+    
+    location /media/ {
+        alias /path/to/django/media/;
+    }
+}
+
+# 前端 Vue 应用
+server {
+    listen 80;
+    server_name www.tangkang.example.com;
+    
+    root /path/to/vue/dist;
+    index index.html;
+    
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+    
+    location /api/ {
+        proxy_pass http://api.tangkang.example.com;
+    }
+}
+```
+
+### 6. 数据库配置
+- 创建数据库用户和权限
+- 导入初始数据（如果需要）
+- 配置数据库备份策略
+- 配置数据库监控
+
+### 7. 验证测试
+1. **API 测试**
+   - 使用 Postman/curl 测试 API 端点
+   - 验证认证和授权
+   - 测试关键业务逻辑
+
+2. **前端测试**
+   - 访问 Web 应用验证功能
+   - 测试响应式布局
+   - 验证 API 调用
+
+3. **集成测试**
+   - 测试前后端数据流
+   - 验证文件上传等复杂功能
+   - 压力测试关键接口
 
 ### 风险与应对
 - **数据库迁移风险**: 准备回滚方案
