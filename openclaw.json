@@ -1,9 +1,0 @@
-{
-  "agents": {
-    "defaults": {
-      "compaction": {
-        "reserveTokensFloor": 40000
-      }
-    }
-  }
-}
